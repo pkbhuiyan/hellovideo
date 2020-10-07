@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "cross-env": "^5.1",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0"
+    },
+    "dependencies": {
+        "admin-lte": "^2.4.9",
+        "axios": "^0.18",
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.2",
+        "npm": "^6.10.2",
+        "sweetalert2": "^8.2.6",
+        "toastr": "^2.1.4",
+        "vue": "^2.5.17",
+        "vue-carousel": "^0.18.0-alpha",
+        "vue-facebook": "^1.1.0",
+        "vue-plyr": "^5.1.0",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.0.2",
+        "vue-social-sharing": "^2.4.7",
+        "vue-star": "0.0.4",
+        "vue-template-compiler": "^2.6.6",
+        "vuetify": "^1.5.2"
+    }
+}
